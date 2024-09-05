@@ -333,3 +333,52 @@ footer {
 .footer-container {
     text-align: center;
 }
+
+/*ABOUT*/ /*ABOUT*/ /*ABOUT*/ /*ABOUT*/ /*ABOUT*/ /*ABOUT*/ /*ABOUT*/ /*ABOUT*/ /*ABOUT*/ /*ABOUT*/ /*ABOUT*/
+
+/*Section about*/
+
+#top-section {
+    padding: var(--sectionPadding);
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*Skill & Tools*/
+.tools {
+    padding: var(--sectionPadding);
+}
+.tools ul {
+    display: flex;
+}
+
+.tools ul li {
+    list-style: none;
+    width:12vw;
+}
+
+/*CTA*/
+
+.cta-container {
+    padding: var(--sectionPadding);
+    font-size: 25px;
+    text-align: center;
+}
+
+.cta-container button {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--primaryIconColor);
+    cursor: pointer;
+    font-size:25px;
+    color: var(--primaryTextColor);
+}
+
+#git {
+    margin-top: 50px;
+}
+
+#git:hover{
+    background-color: var(--secondaryIconColor);
+}
