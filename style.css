@@ -93,3 +93,62 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 3rem;
 }
+
+/* Homepage */ /* Homepage */ /* Homepage */ /* Homepage */ /* Homepage */ /* Homepage */
+
+/* Header*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    padding-top: 0.5rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.logo a {
+    color: var(--primaryIconColor);
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: var(--primaryIconColor);
+    font-size: 20px;
+}
+nav ul li a:hover {
+    color: var(--secondaryIconColor);
+}
+
+/* Burger */
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: var(--primaryTextColor);
+    margin: 7px;
+    transition: all 0.3s;
+    z-index: 99;
+}
+
+.burger {
+    display: none; 
+    z-index: 99;
+    position: fixed;
+    top: 33px;
+    right: 35px;
+}
